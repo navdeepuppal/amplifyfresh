@@ -1,0 +1,11 @@
+type Todo @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  description: String
+  isComplete: Boolean!
+  img: String
+  price: Int
+  cutPrice: Int
+  units: String
+}
+ 
